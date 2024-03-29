@@ -99,7 +99,7 @@ def process_csv(file):
     # Get scale
     scale = get_scale(
             f"Your spreadsheet is of size {arr.to_numpy().shape}. "
-            "Type the scale of the image (e.g. 2:1):\n>>> "
+            "Type the scale of the spreadsheet (e.g. 2:1):\n>>> "
     )
 
     # Process CSV
