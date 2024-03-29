@@ -28,12 +28,12 @@ There are two modes: CSV and PNG.
 ### CSV
 A valid CSV contains numerical values representing the weight of each pixel, with blank spaces or 0s indicating vacuum.
 
-Refer to [Example 1](examples/ex01.csv) for reference.
+Refer to [Example 1](examples/ex01.csv).
 
 ### PNG
 A valid PNG image is saved with distinct colors representing varying weights, with white indicating vacuum.
 
-Refer to [Example 2](examples/ex02.png) for reference.
+Refer to [Example 2](examples/ex02.png).
 
 ## Execution
 
