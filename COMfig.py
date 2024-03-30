@@ -157,8 +157,6 @@ def process_img(file):
     mass_arr = [color_to_mass[c] for c in new_arr]
     mass_arr = np.array(mass_arr).reshape(arr.shape[:-1])
 
-    np.savetxt("foo.csv", mass_arr, delimiter=",")
-
     # Call result function
     gen_center_of_mass(mass_arr, scale)
 
